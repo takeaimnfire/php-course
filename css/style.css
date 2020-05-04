@@ -1,0 +1,122 @@
+
+body {
+    color: white;
+    background: black;
+    font-size: 14px;
+    font-style: bold;
+    font-family: Arial;
+}
+
+.body {
+    color: white;
+    size: 100%;
+    background-color: black;
+    background: black url("../images/hash.jpg") no-repeat fixed center;
+    font-size: 14px;
+    font-style: bold;
+    font-family: Arial;
+}
+
+#header {
+    background-color: darkslategrey;
+    padding: 2px;
+}
+
+a, a:visited {
+    color: rgb(253, 122, 0);
+    font-size: 14px;
+    font-family: 'courier new';
+    font-style: bold;
+    font-weight: 5;
+    font-size: 16px;
+    text-decoration: solid;
+    text-decoration-color: white;
+    text-shadow: 1px 1px 1px white;
+}
+
+a:hover, a:active {
+    color: yellow;
+    font-size: 14px;
+    font-family: 'courier new';
+    font-style: bold;
+    font-weight: 5;
+    font-size: 16px;
+    text-decoration: solid;
+    text-decoration-color: white;
+    text-shadow: 1px 1px 1px lime;
+}
+
+h1 {
+    color: yellow;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 10px;
+    box-sizing: 2px;
+    box-shadow: 2px 2px 2px lime;
+}
+
+.button {
+    background-color: green;
+    border: 1px solid white;
+    box-sizing: 10px;
+    border-style: solid;
+    border-radius: 30%;
+    color: black;
+    font-family: Arial;
+    font-style: bold;
+    text-shadow: 1px 1px 1px white;
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    cursor: crosshair;
+}
+
+#answer {
+    box-sizing: 10px;
+    box-shadow: 3px 3px 3px green;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px;
+}
+
+#submit {
+    background-color: green;
+    border: 1px solid white;
+    box-sizing: 10px;
+    border-style: solid;
+    border-radius: 30%;
+    color: black;
+    font-family: Arial;
+    font-style: bold;
+    text-shadow: 1px 1px 1px white;
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+#name {
+    background-color: white;
+    border: 2px solid green;
+    box-sizing: 10px;
+    border-style: dotted;
+    border-radius: 10%;
+    color: green;
+    font-family: courier;
+    font-style: bold;
+    padding: 5px;
+}
+
+#job {
+    background-color: white;
+    border: 2px solid green;
+    box-sizing: 10px;
+    border-style: dotted;
+    border-radius: 10%;
+    color: green;
+    font-family: courier;
+    font-style: bold;
+    padding: 5px;
+}

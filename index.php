@@ -8,23 +8,23 @@
 <html>
     <head>
         <title>PHP Testing</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
         <div style="margin-top: 0px; text-align: center;">
         <a href="index2.php">Page 2</a>
         </div>
-        <h1>Online Forms</h1>
+
+        <h1 style="text-align: center;"><a href="addition.php">GO TO MATH FLASHCARD APP</a></h1>
+
+        <h1 style="text-align: center;">Online Forms</h1>
 
         <form action="form.php" method="post">
         
-            Name: <input type="text" name="Name"><br/><br/>
+            Name: <input type="text" name="Name" id="name"><br/><br/>
 
-            <input type="submit">
-        </form>
-
-        <form action="form2.php" method="get">
-            Job Title: <input type="text" name="job"><br/><br/>
-            <input type="submit">
+            Job Title: <input type="text" name="job" id="job"><br/><br/>
+            <input type="submit" id="submit">
         </form>
 
     
