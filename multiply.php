@@ -29,7 +29,7 @@
 
         </h1>
         <br/><br/>
-        <div style="text-align: center; font-family: Arial;">
+        <div style="text-align: center;" id="result">
         <?php
             if (!$_POST["answer"]) { } else {
                 $correct_answer = $_POST["num1"] * $_POST["num2"];

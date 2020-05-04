@@ -11,7 +11,7 @@ body {
     color: white;
     height: 100%;
     background-color: black;
-    background: black url("../images/math2.jpg") no-repeat fixed center;
+    background: black url("../images/math5.jpg") no-repeat fixed center;
     font-size: 14px;
     font-style: bold;
     font-family: Arial;
@@ -140,6 +140,14 @@ h1 {
     font-family: courier;
     font-style: bold;
     padding: 5px;
+}
+
+#result {
+    color: yellow;
+    font-size: 20px;
+    font-family: times;
+    font-style: bold;
+    text-shadow: 2px 2px 2px orange;
 }
 
 form {
