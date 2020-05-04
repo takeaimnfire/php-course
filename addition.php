@@ -40,7 +40,7 @@
             }
         ?>
         </div>
-        <br/><br/><br/><br/>
+        <br/><br/>
         
         <form method="post" action="addition.php" style="text-align: center; font-family: Arial;">
             <input name="num1" type="hidden" value="<?php echo $fnum1; ?>">
