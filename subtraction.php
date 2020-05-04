@@ -4,6 +4,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
+    <div class="body">
     <?php error_reporting (E_ALL ^ E_NOTICE); ?>
 
         <div style="position: fixed; top: 0; left: 0; right: 0; margin-top: 0px; text-align: center;" id="header">
@@ -58,6 +59,7 @@
         <?php
         include('footer.php');
         ?>
+        </div>
         </div>
     </body>
 </html>
