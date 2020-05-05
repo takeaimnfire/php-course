@@ -37,7 +37,11 @@
 
         ?>
         </div>
-        
+        <div style="position: fixed; bottom: 0; left: 0; right: 0; margin-bottom: 5px; text-align: center;">
+        <?php
+        include('footer.php');
+        ?>
+        </div>
     
     </body>
     </html>
