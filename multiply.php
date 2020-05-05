@@ -18,7 +18,7 @@
         ?>
         </div>
         <br/><br/>
-        <h1 style="margin-top: 10%; text-align: center; font-family: Arial;">Multiplication</h1>
+        <h1 style="margin-top: 12%; text-align: center; font-family: Arial;">Multiplication</h1>
 
         <h1 style="text-align: center; font-family: Arial;">
         <?php

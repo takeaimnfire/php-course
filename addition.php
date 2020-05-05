@@ -17,7 +17,7 @@
         ?>
         </div>
         <br/><br/>
-        <h1 style="margin-top: 15%; text-align: center; font-family: Arial;">Addition</h1>
+        <h1 style="margin-top: 12%; text-align: center; font-family: Arial;">Addition</h1>
 
         <h1 style="text-align: center; font-family: Arial;">
         <?php
