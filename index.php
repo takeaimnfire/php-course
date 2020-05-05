@@ -21,20 +21,7 @@
 
         <div style="text-align: center;" id="welcome">
         <?php
-            date_default_timezone_set('America/New_York');
-            $hour = date('G');
-            $year = date('y');
-
-            if ( $hour >= 5 && $hour < 12 ) {
-                echo  "<h3>Good Morning!</h3> <br/> Today's date is: " . date('l, M d, Y') . "<br/> The time is " . date('g:i a');
-            } elseif ( $hour >= 12 && $hour < 18 ) {
-                echo  "<h3>Good afternoon!</h3> <br/> Today's date is: " . date('l, M d, Y') . "<br/> The time is " . date('g:i a');
-            } elseif ( $hour >= 18 && $hour < 22 ) {
-                echo  "<h3>Good evening!</h3> <br/> Today's date is: " . date('l, M d, Y') . "<br/> The time is " . date('g:i a');
-            } else {
-                echo  "<h3>Good night!</h3> <br/> Today's date is: " . date('l, M d, Y') . "<br/> The time is " . date('g:i a');
-            }
-
+            include('time.php')
         ?>
         </div>
         <div style="position: fixed; bottom: 0; left: 0; right: 0; margin-bottom: 5px; text-align: center;">

@@ -21,16 +21,27 @@
         <h1 style="text-align: center;"><a href="addition.php">GO TO MATH FLASHCARD APP</a></h1>
 
         <h1 style="text-align: center;">Online Forms</h1>
+        <div style="text-align: center;" id="forms">
+            <form action="form.php" method="post">
+            
+                Name: <input type="text" name="Name" id="name"><br/><br/>
 
-        <form action="form.php" method="post">
-        
-            Name: <input type="text" name="Name" id="name"><br/><br/>
-
-            Job Title: <input type="text" name="job" id="job"><br/><br/>
-            <input type="submit" id="submit">
-        </form>
-
-    
+                Job Title: <input type="text" name="job" id="job"><br/><br/>
+                <button type="submit" id="button" class="button">Submit</button>
+            </form>
+        </div><br /><br />
+        <div style="text-align: center;" id="welcome">
+        <?php
+            include('time.php')
+        ?>
+        </div><br /><br />
+        <hr /><br />
+        <h2 style="text-align: center;">This is all testing junk.</h2>
+        <div style="position: fixed; bottom: 0; left: 0; right: 0; margin-bottom: 5px; text-align: center;">
+        <?php
+        include('footer.php');
+        ?>
+        </div>
     </body>
 </html>
 <?php
@@ -135,7 +146,6 @@ $_ENV
 
     echo ucwords($var) . "<br/><br/>";
 
-    echo str_replace("cool", "lame", $var2) . "<br/><br/>";
+    echo str_replace("cool", "sweet", $var2) . "<br/><br/>";
 
-    include 'footer.php';
 ?>

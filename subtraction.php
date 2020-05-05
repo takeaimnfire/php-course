@@ -59,6 +59,11 @@
             <button type="submit" id="button" class="button">Submit</button> <button type="button" onClick="history.go(0)" value="Refresh" id="button" class="button">New Card</button>
             
         </form>
+        <div style="text-align: center;" id="welcome">
+        <?php
+            include('time.php')
+        ?>
+        </div>
         <div style="position: fixed; bottom: 0; left: 0; right: 0; margin-bottom: 5px; text-align: center;">
         <?php
         include('footer.php');
