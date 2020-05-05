@@ -59,6 +59,11 @@ h1 {
     box-shadow: 2px 2px 2px lime;
 }
 
+h3 {
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
 .button {
     background-color: green;
     border: 2px solid white;
