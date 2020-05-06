@@ -29,8 +29,7 @@ a, a:visited {
     font-style: bold;
     font-weight: 5;
     font-size: 16px;
-    text-decoration: solid;
-    text-decoration-color: white;
+    text-decoration: none;
     text-shadow: 1px 1px 1px white;
 }
 
@@ -41,8 +40,7 @@ a:hover, a:active {
     font-style: bold;
     font-weight: 5;
     font-size: 16px;
-    text-decoration: solid;
-    text-decoration-color: white;
+    text-decoration: none;
     text-shadow: 1px 1px 1px lime;
 }
 
