@@ -86,7 +86,7 @@ h3 {
     border-radius: 20px;
     color: black;
     font-family: 'Arial';
-    font-style: bold;
+    font-weight: bold;
     font-size: 125%;
     text-shadow: 2px 2px 2px white;
     display: inline-block;
@@ -102,7 +102,7 @@ h3 {
     border-radius: 20px;
     color: white;
     font-family: Arial;
-    font-style: bold;
+    font-weight: bold;
     font-size: 125%;
     text-shadow: 2px 2px 2px green;
     display: inline-block;
