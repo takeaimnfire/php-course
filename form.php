@@ -19,7 +19,7 @@
         <br /><br />
         <div style="text-align: center;" id="welcome">
             <?php
-                include('time.php')
+                include('time.php');
             ?>
         </div>
         <div style="position: fixed; bottom: 0; left: 0; right: 0; margin-bottom: 5px; text-align: center;">
